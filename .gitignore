@@ -1,0 +1,52 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+.idea/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Java
+*.class
+*.jar
+*.war
+*.log
+
+# Spring
+application.properties
+application.yml
+application-*.yml
+application-*.properties
+
+# Environment
+.env
+.env.*
+secrets/
+*.pem
+*.key
+
+# Docker
+docker-compose.override.yml
+docker-compose.local.yml
+
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+data/
+tmp/
+logs/
+surefire-reports/
+failsafe-reports/
+coverage/
+jacoco/
+HELP.md
